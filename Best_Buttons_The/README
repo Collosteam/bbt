@@ -1,0 +1,43 @@
+1.
+Реализовать методы генерации и разбора JSON
+
+[
+{
+"group":1,
+"question":"Make all good",
+"ansver":"Will be all good!"
+"weidth":1,
+"verson":1
+},
+{
+"group":3,
+"question":"Make all not good",
+"ansver":"Will be all not good!"
+"weidth":-1,
+"verson":3
+}
+]
+
+"group"
+1 - Good
+2 - Naitral
+3 - Bad
+
+"weidth"
+
+> 0 - Good
+= 0 - Naitral
+< 0 - Bad
+
+"verson"
+
+Версия вопроса является служебным идентификатором, для фильтровки вопросов
+ например для Online синхронизации и сравнения результатов между 2мя
+
+ Каждое нажатие на кнопку фиксируется для последующего анализа.
+Идеальный вариант ведение общей статистики для всех пользователей не только через
+ Google Play Servics а и через локальную БД
+
+id | group | question_id | ansver_id | weidth | verson | date | user info
+
+
